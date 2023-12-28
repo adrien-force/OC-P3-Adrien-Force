@@ -188,6 +188,11 @@ nav {
   margin-bottom: 34px;
 }
 
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
 .filter-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -798,12 +803,34 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 5px;
+    padding-right: 20px;
   }
+
+  .search-input {
+    background: none;
+    border-width: 0px;
+    padding-left: 20px;
+  }
+
+  .search-form {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    height: 47px;
+    border-color: var(--main-bg-color);
+  }
+
+  
 
   .search-btn {
     padding: 0px;
     margin: 0px;
-    width: 50px;
+    width: 70px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px
   }
 
   .fa-search {
@@ -836,6 +863,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 20px;
   }
 
